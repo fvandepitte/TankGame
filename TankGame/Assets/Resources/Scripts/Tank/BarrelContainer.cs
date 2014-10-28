@@ -3,6 +3,6 @@ using System.Collections;
 
 public class BarrelContainer : MonoBehaviour {
 
-    public float RotationSpeed = 5F;
+    public float RotationSpeed = 175F;
 
-}
+ }
