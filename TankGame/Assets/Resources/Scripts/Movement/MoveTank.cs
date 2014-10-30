@@ -22,11 +22,11 @@ public class MoveTank : MonoBehaviour {
             //TankMovement
             var tankScript = Tank.GetComponent<Tank>();
 
-            float tiltAroundZ = Input.GetAxis("Horizontal") * tankScript.RotationSpeed;
+            float tiltAroundZ = -Input.GetAxis("Horizontal") * tankScript.RotationSpeed;
             Quaternion target = Quaternion.Euler(0, 0, tiltAroundZ);
 
-            Tank.rigidbody2D.velocity = (Tank.transform.up * tankScript.Speed * Input.GetAxis("Vertical"));
-            Tank.rigidbody2D.transform.Rotate(target.eulerAngles);
+            Tank.rigidbody.velocity = (Tank.transform.up * tankScript.Speed * Input.GetAxis("Vertical"));
+            Tank.rigidbody.transform.Rotate(target.eulerAngles);
 
             //BarrelMovement
 

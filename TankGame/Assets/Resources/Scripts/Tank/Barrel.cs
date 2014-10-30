@@ -21,7 +21,8 @@ public class Barrel : MonoBehaviour {
         {
             GameObject bullet = Instantiate(Bullet, bulletPoint.position, bulletPoint.rotation) as GameObject;
             bullet.transform.Translate(new Vector3(0, 0, 0.001f));
-            bullet.rigidbody.velocity = GetComponentInParent<Tank>().rigidbody2D.velocity;
+            bullet.rigidbody.velocity = GetComponentInParent<Tank>().rigidbody.velocity;
+            bullet.rigidbody.AddForce(bulletPoint.forward * 5000);
         }
     }
 }
