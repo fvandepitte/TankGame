@@ -63,6 +63,7 @@
     <Compile Include="Assets\Resources\Scripts\Tank\BarrelContainer.cs" />
     <Compile Include="Assets\Resources\Scripts\Tank\Body.cs" />
     <Compile Include="Assets\Resources\Scripts\Tank\Bullet.cs" />
+    <Compile Include="Assets\Resources\Scripts\Tank\Smoke.cs" />
     <Compile Include="Assets\Resources\Scripts\Tank\Tank.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2013\UnityVS.CSharp.targets" />
