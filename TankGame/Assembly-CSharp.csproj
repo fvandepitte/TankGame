@@ -47,13 +47,18 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Resources\Scripts\Camera\SmoothCamera2D.cs" />
+     <Compile Include="Assets\Resources\Scripts\General\AssetLoader.cs" />
+     <Compile Include="Assets\Resources\Scripts\Map\Map.cs" />
      <Compile Include="Assets\Resources\Scripts\Movement\MoveTank.cs" />
      <Compile Include="Assets\Resources\Scripts\Tank\Barrel.cs" />
      <Compile Include="Assets\Resources\Scripts\Tank\BarrelContainer.cs" />
      <Compile Include="Assets\Resources\Scripts\Tank\Body.cs" />
-     <Compile Include="Assets\Resources\Scripts\Tank\Bullet.cs" />
-     <Compile Include="Assets\Resources\Scripts\Tank\Smoke.cs" />
+     <Compile Include="Assets\Resources\Scripts\Tank\Bullet\Bullet.cs" />
+     <Compile Include="Assets\Resources\Scripts\Tank\Bullet\Smoke.cs" />
      <Compile Include="Assets\Resources\Scripts\Tank\Tank.cs" />
+ <Reference Include="ICSharpCode.SharpZipLib">
+ <HintPath>C:/Users/fva/Documents/GitHub/TankGame/TankGame/Assets/plugins/ICSharpCode.SharpZipLib.dll</HintPath>
+ </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">

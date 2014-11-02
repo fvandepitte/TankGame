@@ -17,6 +17,11 @@ public class Bullet : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         start = Time.time;
+        if (UnityEngine.Random.value < .15F)
+        {
+            rigidbody.constraints &= ~RigidbodyConstraints.FreezeRotationZ;
+        }
+
 	}
 	
 	// Update is called once per frame

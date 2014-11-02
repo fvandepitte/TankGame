@@ -40,11 +40,6 @@ public class MoveTank : MonoBehaviour {
             mousePos.x = mousePos.x - objectPos.x;
             mousePos.y = mousePos.y - objectPos.y;
 
-            /*
-            float angle = Mathf.Atan2(mousePos.x, mousePos.y) * Mathf.Rad2Deg;
-            barrelContainer.transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle));
-             */
-
             float angle = Mathf.Atan2(mousePos.y, mousePos.x) * Mathf.Rad2Deg;
 
             Vector3 targetDir = new Vector3(0, 0, angle - 90);

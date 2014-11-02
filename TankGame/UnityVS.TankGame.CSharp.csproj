@@ -46,6 +46,9 @@
       <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
     </Reference>
     <Reference Include="System.Xml.Linq" />
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>Assets\plugins\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
     <Reference Include="Assembly-UnityScript-firstpass">
       <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
     </Reference>
@@ -58,12 +61,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Resources\Scripts\Camera\SmoothCamera2D.cs" />
+    <Compile Include="Assets\Resources\Scripts\General\AssetLoader.cs" />
+    <Compile Include="Assets\Resources\Scripts\Map\Map.cs" />
     <Compile Include="Assets\Resources\Scripts\Movement\MoveTank.cs" />
     <Compile Include="Assets\Resources\Scripts\Tank\Barrel.cs" />
     <Compile Include="Assets\Resources\Scripts\Tank\BarrelContainer.cs" />
     <Compile Include="Assets\Resources\Scripts\Tank\Body.cs" />
-    <Compile Include="Assets\Resources\Scripts\Tank\Bullet.cs" />
-    <Compile Include="Assets\Resources\Scripts\Tank\Smoke.cs" />
+    <Compile Include="Assets\Resources\Scripts\Tank\Bullet\Bullet.cs" />
+    <Compile Include="Assets\Resources\Scripts\Tank\Bullet\Smoke.cs" />
     <Compile Include="Assets\Resources\Scripts\Tank\Tank.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2013\UnityVS.CSharp.targets" />
