@@ -1,9 +1,30 @@
 {
-	"RCQ1" : "roadTile1",
-	"RCQ0" : "roadTile2",
-	"RCQ2" : "roadTile7",
-	"RCQ3" : "roadTile8",
-	"RHOR" : "roadTile6",
-	"RVER" : "roadTile27",
-	"GRAS" : "terrainTile3"
+	"RCQ1" :
+	{
+		"name" : "roadTile1" 
+	},
+	"RCQ0" :
+	{
+		"name" : "roadTile2" 
+	},
+	"RCQ2" :
+	{
+		"name" : "roadTile7" 
+	},
+	"RCQ3" :
+	{
+		"name" : "roadTile8" 
+	},
+	"RHOR" :
+	{
+		"name" : "roadTile6" 
+	},
+	"RVER" :
+	{
+		"name" : "roadTile27" 
+	},
+	"GRAS" :
+	{
+		"name" : "terrainTile3" 
+	}
 }
