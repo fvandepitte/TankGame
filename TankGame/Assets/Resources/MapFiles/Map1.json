@@ -1,5 +1,8 @@
 [
-	["RCQ1", "RHOR", "RCQ0" ],
-	["RVER", "GRAS", "RVER" ],
-	["RCQ2", "RHOR", "RCQ3" ]
+	["RCQ1", "RHOR", "RHOR", "RHOR", "RHOR", "RCQ0" ],
+	["RVER", "GRAS", "GRAS", "GRAS", "GRAS", "RVER" ],
+	["RVER", "GRAS", "GRAS", "GRAS", "GRAS", "RVER" ],
+	["RVER", "GRAS", "GRAS", "GRAS", "GRAS", "RVER" ],
+	["RVER", "GRAS", "GRAS", "GRAS", "GRAS", "RVER" ],
+	["RCQ2", "RHOR", "RHOR", "RHOR", "RHOR", "RCQ3" ]
 ]

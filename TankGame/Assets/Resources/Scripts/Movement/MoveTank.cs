@@ -9,7 +9,7 @@ public class MoveTank : MonoBehaviour {
     void Start() {
 
         Tank = Instantiate(Tank) as GameObject;
-
+        Tank.transform.Translate(new Vector3(2, -2));
         if (Tank) {
             Camera.main.GetComponent<SmoothCamera2D>().target = Tank.transform;
         }
